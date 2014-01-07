@@ -32,6 +32,7 @@
     <color name="dialpad_digits_text_color">#000000</color>
     <!-- Color for dialpad separator lines -->
     <color name="dialpad_separator_line_color">#dadada</color>
+    <color name="dialpad_text_color">#000000</color>
 
     <!-- Color of the text describing an unconsumed missed call. -->
     <color name="call_log_missed_call_highlight_color">#FF0000</color>
@@ -66,13 +67,16 @@
     <!-- Background color of action bars.  Ensure this stays in sync with packages/Telephony
          actionbar_background_color. -->
     <color name="actionbar_background_color">#3B77E7</color>
+    
+    <!-- Background color of new dialpad -->
+    <color name="background_dialpad">#ffffffff</color>
 
     <!-- Primary color of dialpad text, including the call button -->
-    <color name="dialpad_primary_text_color">#ffffff</color>
+    <color name="dialpad_primary_text_color">#000000</color>
     <!-- Call button color separated from dialpad_primary_text_color, for better theme support -->
-    <color name="dialpad_call_button_color">#181818</color>
+    <color name="dialpad_call_button_color">#888888</color>
     <!-- Secondary color of dialpad text (used for the letters corresponding to each digit -->
-    <color name="dialpad_secondary_text_color">#aaaaaa</color>
+    <color name="dialpad_secondary_text_color">#444444</color>
 
     <!-- Underline color of action bars.  Ensure this stays in sync with packages/Telephony
          actionbar_underline. -->
