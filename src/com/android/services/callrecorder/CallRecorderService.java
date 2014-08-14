@@ -212,6 +212,8 @@ public class CallRecorderService extends Service {
     }
 
     public static boolean isEnabled(Context context) {
-        return context.getResources().getBoolean(R.bool.call_recording_enabled);
+        boolean defaultValue = context.getResources().getBoolean(R.bool.call_recording_enabled);
+        return Settings.System.getBoolean(context.getContentResolver(),
+                Settings.System.ALLOW_CALL_RECORDING, defaultValue);
     }
 }
